@@ -70,26 +70,6 @@ def main():
 
 				elif task == "Analytics":
 					st.subheader("Analytics")
-
-					st.write('Google-Text-to-Speech')
-					'https://share.streamlit.io/takanorinakaya/texttospeech-003/main/app.py'
-
-					st.write('リアルタイム動画解析')
-					'https://share.streamlit.io/whitphx/streamlit-webrtc-example/main/app.py'
-
-					st.write('ダッシュボード')
-					'https://share.streamlit.io/takanorinakaya/interactive-dashboard-01/main/db_app.py'
-
-					st.write('機械学習アプリ')
-					'https://share.streamlit.io/kunishou/streamlit_tools/web_tools.py'
-
-					st.write('画風変換アプリ')
-					'https://mimic-fnst.herokuapp.com/'
-
-					st.write('視線追跡アプリ')
-					'https://docs.google.com/spreadsheets/d/1h--kHmYp1LtMpSlK6fQXpGBwqikageaf1G0uK58jRNg/edit'
-
-
 				elif task == "Profiles":
 					st.subheader("User Profiles")
 					user_result = view_all_users()
