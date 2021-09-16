@@ -89,6 +89,9 @@ def main():
 					st.write('視線追跡アプリ')
 					'https://docs.google.com/spreadsheets/d/1h--kHmYp1LtMpSlK6fQXpGBwqikageaf1G0uK58jRNg/edit'
 
+					st.write('米国株価可視化アプリ')
+					'https://share.streamlit.io/takanorinakaya/yfinance-000/main/app.py'
+
 
 				elif task == "Profiles":
 					st.subheader("User Profiles")
